@@ -1,0 +1,25 @@
+---
+itle: Report
+author: "YNYK"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    latex_engine: xelatex
+---
+# sleeping
+
+## SCD
+
+### lefse_species
+
+#### kraken2
+
+```{r out.width="100%",out.height="200%"}
+knitr::include_graphics("A_sleepBad_SCD1_padj0.05_lefse_cal_barplot.pdf")
+```
+
+```{r out.width="200%",out.height="200%"}
+knitr::include_graphics("Young_NC_SCD_sleeping_constipation_20230915/version1/01_Kraken2/output/differential/lefse_abundance_barplot/A_sleepBad_vs_B_sleepGood_***A_sleepBad_as_reference***Species_高质量睡眠_SCD1__lefse_abundance_barplot.pdf")
+```
+
+#### atlas
